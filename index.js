@@ -14,7 +14,7 @@ app.get('/register',async(req, res) => {
     }
     catch (error) {
         console.error(error)
-        console.log("demo123")
+        console.log("demo")
         res.status(500).json({ message: 'An error occurred during registration' })
       }
 })
